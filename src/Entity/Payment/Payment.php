@@ -157,7 +157,7 @@ class Payment
         } catch (Exception $exception) {
             $this->createdAt = null;
         }
-        
+
         return $this;
     }
 
